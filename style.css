@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width:85%;
+    margin:0 auto;
+}
+/*nav bar*/
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px auto;
+    color:#C5C5C5 ;
+
+}
+.navbar-container img{
+    height: 40px;
+    padding-right: 40px;
+}
+.grow-list{
+    flex:2;
+    
+}
+.list{
+    display: flex;
+    list-style-type: none;  
+}
+.list-item{
+    margin:10px 10px;
+    padding: 10px;
+}
+.list-item:hover{
+    color: rgb(35, 34, 34);
+    font-weight: 500;
+}
+.banner-container img{
+    position:absolute;
+    z-index: -1;
+    width: 50%; 
+    max-width: 1600px;
+    bottom: 5%;
+    right:0;
+}
+.navbar-container{
+    align-self: flex-start;
+}
+
+.nav-button{
+    background-color: #5955B3;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+
+/*Banner container styling*/
+.banner-container{
+
+ height: 75vh;
+ width:80%;
+ max-width: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+.banner-container>*{
+    margin: 60px auto;
+}
+
+/* formatting  the elements */
+.heading-text{
+    color:#3C2F60;
+    font-weight: 700;
+    font-size: 50px;
+     margin-top: 100px;
+   
+}
+.heading-text span{
+    color: #5955B3;
+}
+.description{
+ color: #B5B5B5;
+ font-weight:400 ;
+  padding-top: 30px;
+}
+.btn{
+    margin-top: 60px;
+
+}
